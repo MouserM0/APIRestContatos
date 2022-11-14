@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #121214;
+    background-image: url(../assets/bg.svg);
+    background-position-x: center;
+    background-size: 100% 100vh;
+}
+
+main {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.title {
+    color: rgb(236, 222, 67);
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.descr {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    justify-content: center;
+    width: 500px;
+}
+
+.cards {
+    display: flex;
+    gap: 32px
+}
+
+.request {
+    display: inline-block;
+    background: rgb(48, 48, 48);
+    width: 400px;
+    padding: 3%;
+    margin-top: 5%;
+    border-radius: 16px;
+    border-bottom: 2px solid rgb(255, 248, 51);
+}
+
+.response {
+    height: 280px;
+    display: inline-block;
+    background: rgb(48, 48, 48);
+    width: 400px;
+    padding: 3%;
+    margin-top: 5%;
+    border-radius: 16px;
+    border-bottom: 2px solid rgb(255, 248, 51);
+}
+
+.placeholder {
+    color: rgb(236, 222, 67);
+    font-size: 24px;
+    margin-bottom: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+.input {
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid rgb(105, 105, 99);
+}
+
+.buttons {
+    padding-left: 15%;
+}
+
+.button {
+    padding: 1%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 100px;
+    background-color: rgb(236, 222, 67);
+    color: rgb(48, 48, 48);
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

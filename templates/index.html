@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="app">
+            <div class="title">
+                <h1>Agenda</h1>
+            </div>
+            <div class="descr">
+                <p>
+                    Para fazer uso da biblioteca, envie uma solicitação GET, POST, PUT ou DELETE para http://localhost:8000/request. Ou use os botões abaixo para postar as solicitações padrão.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="request">
+                    <p class="placeholder">Pesquise no Banco de Dados:</p>
+                    <input type="search" class="input" placeholder="Faça uma Requisição..."/>
+                    <div class="buttons">
+                        <button type="submit" class="button get">GET</button>
+                        <button type="submit" class="button put">PUT</button>
+                        <button type="submit" class="button post">POST</button>
+                        <button type="submit" class="button delete">DELETE</button>
+                    </div>
+                </div>
+                <div class="response">
+                    <p class="placeholder">Response:</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
